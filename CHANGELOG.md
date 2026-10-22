@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.39 preview — first-run browser setup
+
+A first-run wizard explains why the companion is needed and walks users through browser selection, the Extensions page, Developer mode, folder selection and connection verification. Offline images highlight the relevant controls and can be enlarged. Firefox has a separate temporary add-on path; its store button remains unavailable until a signed listing is confirmed and configured.
+
+Set up later persists the dismissal, while a sidebar shortcut and reminder keep the guide accessible. Finish requires a recent native handshake from the selected browser with site access enabled. Companion 0.1.23 records only browser family, extension version, permission state and timestamp locally for this verification. The installer now explicitly registers Brave and Chromium too, and its final launch checkbox points users to browser setup.
+
 ## 0.1.38 preview — in-app updates
 
 Check for published updates automatically on startup and every six hours, with a dismissible banner. Settings includes Check for updates and the installed version. Download the Windows installer inside the app, with progress and cancellation; verified downloads expose an Install update button. The installer is never launched automatically.
