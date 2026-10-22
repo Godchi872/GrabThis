@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.37 preview — companion 0.1.22
+
+Keep the original Chromium browser GET download URL across redirects so supported sources can issue fresh temporary links after a pause. Stopped file downloads also offer **Update link**: paste a fresh URL for the same file, then resume. Existing parts and identity checks are preserved; changed files require a restart.
+
+Completed progress windows now show Open file, Open folder, Show details and Close in one row. Removed the disabled Completed/Cancel actions.
+
+After upgrading, reload unpacked browser extensions. Previously saved direct temporary links may need Update link. Firefox store submissions are managed separately.
+
 ## Windows installer â€” companion 0.1.21
 
 Added a per-user Setup.exe with Desktop/Start Menu shortcuts, automatic native browser registration, verified video-tool setup, and both extension folders beside the app. No terminal commands are required. Reinstallation reuses prepared tools; uninstall preserves user data. Companion connection help now points to Setup for repair.

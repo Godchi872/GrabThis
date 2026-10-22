@@ -1,15 +1,11 @@
-GrabThis 0.1.36 — Windows installer preview
+GrabThis 0.1.37 � resume and progress-window fixes
 
-Download **GrabThis-0.1.36-Setup.exe**, open it, and install. Launch GrabThis from its Desktop or Start Menu shortcut. No terminal, .NET SDK or administrator account is required. Setup downloads about 105 MB of pinned official video tools and verifies their SHA-256 hashes.
+Download **GrabThis-0.1.37-Setup.exe**, open it and install. Setup includes companion **0.1.22** and registers the desktop browser connection. Launch GrabThis from its Desktop or Start Menu shortcut.
 
-Setup registers the local browser connection automatically. The **extension** and **extension-firefox** folders are installed beside the app. **Start Menu → GrabThis → Browser extensions** opens the Chrome/Edge folder; **Browser setup guide** provides English, French and Arabic instructions. Includes companion 0.1.21. Chrome/Edge use Developer mode; Firefox’s unsigned preview is temporary until its signed store release is available.
+- Chromium browser capture keeps the original GET URL across redirects, allowing fresh temporary download links from supported sources after a pause.
+- **Update link** on stopped file downloads lets you paste a fresh URL for the same file. Downloaded parts and file-identity checks are preserved. A different file requires restarting; sources must support resuming.
+- Completed progress windows show Open file, Open folder, Show details and Close together, without disabled Completed/Cancel actions.
 
-Highlights: supported pause/resume and automatic connections, automatic eligible file capture with confirmation, floating video MP4/MP3 choices, local video-to-MP3, categories/search/multiple selection, dark/light themes, English/French/Arabic, notifications and tray support.
+**After upgrading:** reload the unpacked extension from your browser's Extensions page. Downloads saved with direct temporary URLs, including Firefox captures where only the resolved URL is available, may need Update link. The Firefox unsigned package is a development preview; Mozilla signing and store publication are separate.
 
-This preview installer is unsigned. Source website support varies. This download is for Windows x64. Uninstalling preserves download history, preferences and downloaded files.
-
-SHA256SUMS.txt lists the installer and older optional portable ZIP. GitHub’s Source code archives contain this documentation repository, not the desktop app.
-
-Website: https://grabthis.vercel.app/
-Browser setup: https://github.com/Godchi872/GrabThis/blob/main/docs/BROWSER-SETUP.md
-Optional support: https://ko-fi.com/grabthis
+Validation: local renewable-link expiry/recovery, preserved partial data, changed-file rejection, downloader regression checks, real WPF controls in English/French/Arabic and both themes, Chrome capture/ownership checks, Firefox capture/fallback/redirect handoff and isolated installer checks. Windows x64 preview, unsigned installer. Setup downloads about 105 MB of verified video tools on first installation. SHA256SUMS.txt accompanies this release.

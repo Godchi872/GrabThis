@@ -6,7 +6,7 @@
   </picture>
   <h1>GrabThis Download Manager</h1>
   <p><strong>Your downloads. Under control.</strong><br>Files, video and MP3 — the tools you need in one straightforward app.</p>
-  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.36/GrabThis-0.1.36-Setup.exe"><strong>Download for Windows</strong></a> · <a href="https://grabthis.vercel.app/">Website</a> · <a href="docs/BROWSER-SETUP.md">Browser setup</a> · <a href="#screenshots">Screenshots</a></p>
+  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.37/GrabThis-0.1.37-Setup.exe"><strong>Download for Windows</strong></a> · <a href="https://grabthis.vercel.app/">Website</a> · <a href="docs/BROWSER-SETUP.md">Browser setup</a> · <a href="#screenshots">Screenshots</a></p>
   <p>Free to use &nbsp; · &nbsp; Windows x64 &nbsp; · &nbsp; English / Français / العربية</p>
 </div>
 
@@ -29,12 +29,12 @@
 
 ## Install in a few clicks
 
-1. Download **[GrabThis-0.1.36-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.36/GrabThis-0.1.36-Setup.exe)** and open it.
+1. Download **[GrabThis-0.1.37-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.37/GrabThis-0.1.37-Setup.exe)** and open it.
 2. Choose the installation folder. Setup prepares the video tools and browser connection automatically. An internet connection is needed for about 105 MB of verified tools.
 3. Open **GrabThis** from the Desktop or Windows Start Menu shortcut.
 4. Add the browser companion using the **[illustrated browser guide](docs/BROWSER-SETUP.md)**.
 
-No terminal, administrator account or .NET SDK is required. The installer is an unsigned preview. [Release notes and checksums](https://github.com/Godchi872/GrabThis/releases/tag/v0.1.36) are available with the download. Choose **Setup.exe**, rather than GitHub’s automatically generated Source code archives.
+No terminal, administrator account or .NET SDK is required. The installer is an unsigned preview. [Release notes and checksums](https://github.com/Godchi872/GrabThis/releases/tag/v0.1.37) are available with the download. Choose **Setup.exe**, rather than GitHub’s automatically generated Source code archives.
 
 ## Add the browser companion
 
@@ -47,7 +47,7 @@ Both extension folders are installed beside the app. **Start Menu → GrabThis �
 
 <a href="docs/BROWSER-SETUP.md"><img src=".github/assets/guides/02-load-unpacked.png" alt="Chrome Extensions page with Load unpacked outlined in orange" width="900"></a>
 
-Companion version: **0.1.21**. Setup registers the desktop connection automatically; installing the extension in each browser still requires your approval.
+Companion version: **0.1.22**. Setup registers the desktop connection automatically; installing the extension in each browser still requires your approval.
 
 ## Screenshots
 
