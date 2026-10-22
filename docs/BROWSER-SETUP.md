@@ -1,6 +1,6 @@
 # Add GrabThis to your browser
 
-Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.39/GrabThis-0.1.39-Setup.exe)** first. Setup registers the local browser connection automatically.
+Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.40/GrabThis-0.1.40-Setup.exe)** first. Setup registers the local browser connection automatically.
 
 On first launch, the app opens a five-step **Browser setup** guide with offline annotated images. Choose your browser, follow the steps and open the companion popup to verify its connection. **Set up later** dismisses the wizard; **Browser setup** in the sidebar reopens it. Completion requires a fresh connection from the chosen browser with website access enabled. The Firefox unsigned preview uses a separate temporary-installation path.
 

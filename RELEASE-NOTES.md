@@ -1,5 +1,5 @@
-**[Download for Windows (.exe)](https://github.com/Godchi872/GrabThis/releases/download/v0.1.39/GrabThis-0.1.39-Setup.exe)**
+**[Download for Windows (.exe)](https://github.com/Godchi872/GrabThis/releases/download/v0.1.40/GrabThis-0.1.40-Setup.exe)**
 
-**New:** A step-by-step browser setup guide with screenshots, in English, French and Arabic.
+**Fixed:** Windows notifications now show **GrabThis** instead of Idman.
 
-After updating, reload your browser extension.
+Close GrabThis from its tray menu → Exit before installing this update. Your downloads and settings are preserved.

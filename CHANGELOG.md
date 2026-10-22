@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.40 — Windows notification branding
+
+Renamed the desktop executable to GrabThis.exe so Windows completion notifications show GrabThis instead of the legacy Idman name. Added an explicit Windows application identity and matching Start Menu/Desktop shortcuts. Browser native-host launching and portable entry points use the new executable.
+
+Setup removes obsolete desktop binaries and preserves the existing download database, preferences and native messaging host identifiers. An existing startup command for the old executable in the same installation is migrated to the new path.
+
 ## 0.1.39 preview — first-run browser setup
 
 A first-run wizard explains why the companion is needed and walks users through browser selection, the Extensions page, Developer mode, folder selection and connection verification. Offline images highlight the relevant controls and can be enlarged. Firefox has a separate temporary add-on path; its store button remains unavailable until a signed listing is confirmed and configured.
