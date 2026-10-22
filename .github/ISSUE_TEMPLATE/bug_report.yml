@@ -1,0 +1,20 @@
+name: Bug report
+description: Report a reproducible GrabThis problem.
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: App and browser companion versions
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include expected and actual behavior. Do not share private URLs, tokens or download databases.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows and browser version
