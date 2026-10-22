@@ -8,6 +8,16 @@ Open **Start Menu → GrabThis → Browser extensions**. Copy the folder address
 
 Chrome, Edge, Brave, Opera / Opera GX and other compatible Chromium browsers use the same **extension** folder. Choose your browser’s address, then follow the highlighted screenshots immediately below.
 
+### Open Extensions without typing an address
+
+In Chrome, click the **three dots → Extensions → Manage extensions**. Other Chromium browsers may offer Extensions directly in their menu or under More tools.
+
+![Illustrated menu: three dots, Extensions and Manage extensions](../.github/assets/guides/00-browser-menu.svg)
+
+This numbered menu image is an illustration. The following Developer mode and Load unpacked images are actual browser screenshots.
+
+**Or copy the address for your browser:**
+
 | Browser | Extensions page |
 | --- | --- |
 | Chrome | `chrome://extensions` |
