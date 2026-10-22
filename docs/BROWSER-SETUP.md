@@ -1,6 +1,6 @@
 # Add GrabThis to your browser
 
-Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.37/GrabThis-0.1.37-Setup.exe)** first. Setup registers the local browser connection automatically.
+Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.38/GrabThis-0.1.38-Setup.exe)** first. Setup registers the local browser connection automatically.
 
 Open **Start Menu → GrabThis → Browser extensions**. Copy the folder address from File Explorer; you will select this folder in step 3.
 

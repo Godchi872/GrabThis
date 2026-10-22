@@ -6,7 +6,7 @@
   </picture>
   <h1>GrabThis Download Manager</h1>
   <p><strong>Your downloads. Under control.</strong><br>Files, video and MP3 — the tools you need in one straightforward app.</p>
-  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.37/GrabThis-0.1.37-Setup.exe"><strong>Download for Windows</strong></a> · <a href="https://grabthis.vercel.app/">Website</a> · <a href="docs/BROWSER-SETUP.md">Browser setup</a> · <a href="#screenshots">Screenshots</a></p>
+  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.38/GrabThis-0.1.38-Setup.exe"><strong>Download for Windows</strong></a> · <a href="https://grabthis.vercel.app/">Website</a> · <a href="docs/BROWSER-SETUP.md">Browser setup</a> · <a href="#screenshots">Screenshots</a></p>
   <p>Free to use &nbsp; · &nbsp; Windows x64 &nbsp; · &nbsp; English / Français / العربية</p>
 </div>
 
@@ -25,16 +25,19 @@
 | **Stay in control** | Pause and resume supported downloads, manage connections, and set a speed limit. |
 | **Convert video to MP3** | Convert a local video inside the app while keeping the original file. |
 | **Keep things organized** | Categories, search, date sorting and multiple selection for your library. |
+| **Update inside the app** | Automatic update checks, direct installer download with progress, and SHA-256 verification before installation. |
 | **Make it yours** | Light/dark appearance, three languages, completion notifications and tray controls. |
 
 ## Install in a few clicks
 
-1. Download **[GrabThis-0.1.37-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.37/GrabThis-0.1.37-Setup.exe)** and open it.
+1. Download **[GrabThis-0.1.38-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.38/GrabThis-0.1.38-Setup.exe)** and open it.
 2. Choose the installation folder. Setup prepares the video tools and browser connection automatically. An internet connection is needed for about 105 MB of verified tools.
 3. Open **GrabThis** from the Desktop or Windows Start Menu shortcut.
 4. Add the browser companion using the **[illustrated browser guide](docs/BROWSER-SETUP.md)**.
 
-No terminal, administrator account or .NET SDK is required. The installer is an unsigned preview. [Release notes and checksums](https://github.com/Godchi872/GrabThis/releases/tag/v0.1.37) are available with the download. Choose **Setup.exe**, rather than GitHub’s automatically generated Source code archives.
+No terminal, administrator account or .NET SDK is required. The installer is an unsigned preview. [Release notes and checksums](https://github.com/Godchi872/GrabThis/releases/tag/v0.1.38) are available with the download. Choose **Setup.exe**, rather than GitHub’s automatically generated Source code archives.
+
+From version **0.1.38**, GrabThis checks for updates at startup and every six hours. Use the update banner or **Settings → Check for updates** to download the installer inside the app, then choose **Install update**. Older versions need one manual Setup installation.
 
 ## Add the browser companion
 

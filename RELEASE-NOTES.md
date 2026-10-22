@@ -1,11 +1,11 @@
-GrabThis 0.1.37 — resume and progress-window fixes
+GrabThis 0.1.38 â€” direct in-app updates
 
-Download **GrabThis-0.1.37-Setup.exe**, open it and install. Setup includes companion **0.1.22** and registers the desktop browser connection. Launch GrabThis from its Desktop or Start Menu shortcut.
+GrabThis checks its public GitHub releases at startup and every six hours. A dismissible banner announces newer published versions. Settings shows the installed version and includes Check for updates.
 
-- Chromium browser capture keeps the original GET URL across redirects, allowing fresh temporary download links from supported sources after a pause.
-- **Update link** on stopped file downloads lets you paste a fresh URL for the same file. Downloaded parts and file-identity checks are preserved. A different file requires restarting; sources must support resuming.
-- Completed progress windows show Open file, Open folder, Show details and Close together, without disabled Completed/Cancel actions.
+Choose Update, then Download update to fetch Setup.exe inside the app with progress and cancellation. After the exact file size and SHA-256 digest are verified, choose Install update to launch Setup. Cached installers are rechecked before launch. Download failures and offline checks leave ordinary transfers running; the installer is never launched automatically.
 
-**After upgrading:** reload the unpacked extension from your browser's Extensions page. Downloads saved with direct temporary URLs, including Firefox captures where only the resolved URL is available, may need Update link. The Firefox unsigned package is a development preview; Mozilla signing and store publication are separate.
+**First installation of this feature:** versions before 0.1.38 cannot discover updates themselves. Download GrabThis-0.1.38-Setup.exe once and install it over your existing version. Downloads and preferences are preserved. Browser companion remains 0.1.22; this release does not update extension files automatically inside the browser.
 
-Validation: local renewable-link expiry/recovery, preserved partial data, changed-file rejection, downloader regression checks, real WPF controls in English/French/Arabic and both themes, Chrome capture/ownership checks, Firefox capture/fallback/redirect handoff and isolated installer checks. Windows x64 preview, unsigned installer. Setup downloads about 105 MB of verified video tools on first installation. SHA256SUMS.txt accompanies this release.
+Checks passed: numeric version comparison and preview selection; equal/older/draft/external or unverified asset rejection; downloaded/cached installer hash verification; tampering, truncated response, cancellation and offline handling; real WPF manual check, update banner, direct-download and ready-to-install states in English/French/Arabic and both themes. The actual public GitHub feed was checked separately. Installer execution itself is user-controlled and was not triggered by update diagnostics.
+
+Windows x64 preview, unsigned installer. Setup prepares verified media tools as before. SHA256SUMS.txt accompanies this release.
