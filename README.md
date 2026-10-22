@@ -38,12 +38,12 @@ No terminal, administrator account or .NET SDK is required. The installer is an 
 
 ## Add the browser companion
 
-Both extension folders are installed beside the app. **Start Menu → GrabThis → Browser extensions** opens the Chrome/Edge folder.
+Both extension folders are installed beside the app. **Start Menu → GrabThis → Browser extensions** opens the Chromium extension folder.
 
-| Chrome / Edge | Firefox |
+| Chrome / Edge / Brave / Opera | Firefox |
 | --- | --- |
 | Enable Developer mode, click Load unpacked, and select **extension**. | The included **extension-firefox** folder is a temporary development preview. Permanent installation requires the signed store version. |
-| [Four steps with highlighted screenshots →](docs/BROWSER-SETUP.md#chrome--edge) | [Firefox instructions →](docs/BROWSER-SETUP.md#firefox) |
+| [Four steps with highlighted screenshots →](docs/BROWSER-SETUP.md#chromium-browsers) | [Firefox instructions →](docs/BROWSER-SETUP.md#firefox) |
 
 <a href="docs/BROWSER-SETUP.md"><img src=".github/assets/guides/02-load-unpacked.png" alt="Chrome Extensions page with Load unpacked outlined in orange" width="900"></a>
 

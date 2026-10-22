@@ -4,13 +4,22 @@ Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872
 
 Open **Start Menu → GrabThis → Browser extensions**. Copy the folder address from File Explorer; you will select this folder in step 3.
 
-## Chrome / Edge
+## Chromium browsers
 
-The screenshots use Chrome. Edge follows the same steps at **edge://extensions**.
+Chrome, Edge, Brave, Opera / Opera GX and other compatible Chromium browsers use the same **extension** folder. Choose your browser’s address, then follow the highlighted screenshots immediately below.
+
+| Browser | Extensions page |
+| --- | --- |
+| Chrome | `chrome://extensions` |
+| Microsoft Edge | `edge://extensions` |
+| Brave | `brave://extensions` |
+| Opera / Opera GX | `opera://extensions` |
+
+Screenshots use Chrome. Labels and control positions can vary slightly between browsers.
 
 ### 1. Turn on Developer mode
 
-Open **chrome://extensions** in Chrome, or **edge://extensions** in Edge. Turn on the switch outlined in orange at the top right.
+Open the extensions page for your browser from the table above. Turn on **Developer mode**, outlined in orange in the screenshot.
 
 ![Step 1: Developer mode highlighted with rectangle number 1](../.github/assets/guides/01-developer-mode.png)
 
@@ -34,7 +43,7 @@ The **GrabThis Download Companion** card should appear with its switch on. Open 
 
 ![Step 4: enabled GrabThis switch highlighted with rectangle number 4](../.github/assets/guides/04-extension-ready.png)
 
-Allow site access for the websites you use. Private windows require a separate **Allow in Incognito / InPrivate** permission in the extension’s Details.
+Allow site access for the websites you use. Private windows require a separate **Incognito / InPrivate / private-window** permission, where available, in the extension’s Details.
 
 ### Updating the extension
 
@@ -67,4 +76,6 @@ The same illustrated guide is available on the localized website:
 - [Français](https://grabthis.vercel.app/fr/#chrome-setup)
 - [العربية](https://grabthis.vercel.app/ar/#chrome-setup)
 
-Open the Chrome/Edge setup section to see the numbered images. The included **Browser setup guide** in GrabThis’s Start Menu folder also contains English, French and Arabic instructions.
+Open the Chromium browser setup section to see the numbered images. The included **Browser setup guide** in GrabThis’s Start Menu folder also contains English, French and Arabic instructions.
+
+Browser references: [Brave extension compatibility](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave) · [Opera Developer mode and unpacked extensions](https://help.opera.com/en/extensions/testing/).
