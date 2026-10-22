@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.41 — installation and extension setup
+
+Setup now defaults to Program Files, with shared shortcuts and browser registrations. Installation and updates request administrator approval; the app runs with normal permissions. On first launch, a previous per-user installation is migrated without changing download history or preferences. Existing unpacked-extension folders remain available to the browser.
+
+Extension setup groups Chrome, Edge and Brave into one illustrated guide and provides a Firefox Store button. Finish remains usable while connection verification is pending. The installer offers a single launch checkbox; the guide opens inside the app.
+
 ## 0.1.40 — Windows notification branding
 
 Windows completion notifications now consistently display GrabThis. Added an explicit Windows application identity and matching Start Menu/Desktop shortcuts. Browser native-host launching and portable entry points use the new executable.

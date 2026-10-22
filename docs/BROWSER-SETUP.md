@@ -1,8 +1,10 @@
 # Add GrabThis to your browser
 
-Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.40/GrabThis-0.1.40-Setup.exe)** first. Setup registers the local browser connection automatically.
+Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.41/GrabThis-0.1.41-Setup.exe)** first. Setup registers the local browser connection automatically.
 
-On first launch, the app opens a five-step **Browser setup** guide with offline annotated images. Choose your browser, follow the steps and open the companion popup to verify its connection. **Set up later** dismisses the wizard; **Browser setup** in the sidebar reopens it. Completion requires a fresh connection from the chosen browser with website access enabled. The Firefox unsigned preview uses a separate temporary-installation path.
+On first launch, **Extension setup** opens automatically. Chrome, Edge and Brave share a five-step illustrated guide; Firefox has its own button opening the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/). **Finish** closes the guide even while connection verification is pending. The reminder stays visible until a verified connection is completed; reopen the guide from the sidebar at any time.
+
+Setup installs in **Program Files** and requests administrator approval for installation and updates. The app itself runs with normal user permissions. On the first launch after upgrading a previous per-user installation, GrabThis removes the old program while preserving user data and existing unpacked-extension folders.
 
 Open **Start Menu → GrabThis → Browser extensions**. Copy the folder address from File Explorer; you will select this folder in step 3.
 
@@ -63,15 +65,7 @@ Install the updated GrabThis version, then click the circular **Reload** arrow i
 
 ## Firefox
 
-Setup registers the Firefox native connection automatically. The signed Firefox store listing is not yet confirmed as available.
-
-For the included temporary development preview:
-
-1. Open **about:debugging#/runtime/this-firefox**.
-2. Choose **Load Temporary Add-on**.
-3. Select **extension-firefox/manifest.json** beside the installed app.
-
-Firefox removes temporary add-ons when it restarts. Permanent installation requires Mozilla signing. The public store link will be added once available; do not disable signing checks.
+Setup registers the Firefox native connection automatically. Open the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/) from the app’s **Firefox Store** button and follow Mozilla’s installation prompt. Availability and approval are managed by Mozilla.
 
 ## Troubleshooting
 
