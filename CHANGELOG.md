@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.48 - Drive archive redirects
+
+Fixes the original-source check for Google Drive folder ZIPs that redirect to Google sign-in. These links now reach the browser-assisted transfer path instead of silently falling back during the native probe. Also fixes the garbled separator in the update dialog. Companion remains 0.1.26.
+
 ## 0.1.47 - browser-session downloads
 
 Companion 0.1.26 adds browser-assisted transfers for eligible signed-in downloads, including Google Drive folder ZIP links. The browser reads the file using its existing session and GrabThis saves it with progress, pause/resume and integrity checks. Cookies stay in the browser. Keep the browser open during these transfers.
