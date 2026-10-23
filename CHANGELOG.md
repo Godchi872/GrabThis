@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.47 - browser-session downloads
+
+Companion 0.1.26 adds browser-assisted transfers for eligible signed-in downloads, including Google Drive folder ZIP links. The browser reads the file using its existing session and GrabThis saves it with progress, pause/resume and integrity checks. Cookies stay in the browser. Keep the browser open during these transfers.
+
+Unsupported resume or a changed source requires a restart without appending incorrect data. Rejected session responses safely return the original download to the browser. Reload the unpacked Chromium extension after installing this update.
+
 ## 0.1.46 - interactive update startup
 
 Updates now pass the app language directly to Setup, preventing the language-selection dialog from delaying the installer readiness signal and application shutdown. The updater shows preparation and Windows-approval status, and restores the ready message when confirmation is cancelled. The modal updater closes before the main window; local handoff diagnostics record preparation, readiness and failures.
