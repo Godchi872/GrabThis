@@ -5,96 +5,106 @@
     <img src=".github/assets/logo-light.svg" alt="GrabThis" width="240">
   </picture>
   <h1>GrabThis Download Manager</h1>
-  <p><strong>Your downloads. Under control.</strong><br>Files, video and MP3 — the tools you need in one straightforward app.</p>
-  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.43/GrabThis-0.1.43-Setup.exe"><strong>Download for Windows</strong></a> · <a href="https://grabthis.vercel.app/">Website</a> · <a href="docs/BROWSER-SETUP.md">Browser setup</a> · <a href="#screenshots">Screenshots</a></p>
-  <p>Free to use &nbsp; · &nbsp; Windows x64 &nbsp; · &nbsp; English / Français / العربية</p>
+  <p><strong>Files, videos and MP3. Simply.</strong><br>The essential download tools, in one straightforward app.</p>
+  <p>
+    <a href="https://github.com/Godchi872/GrabThis/releases/latest"><img src="https://img.shields.io/github/v/release/Godchi872/GrabThis?label=latest%20release&amp;color=20b8a6" alt="Latest GrabThis release"></a>
+    <a href="https://grabthis.vercel.app/"><img src="https://img.shields.io/badge/website-grabthis.vercel.app-243543" alt="GrabThis website"></a>
+  </p>
+  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.43/GrabThis-0.1.43-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-x64-20b8a6?style=for-the-badge" alt="Download GrabThis for Windows x64"></a></p>
+  <p>Free to use Â· Light &amp; dark Â· English / FranÃ§ais / Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</p>
+  <p><a href="#screenshots">Screenshots</a> Â· <a href="#installation">Installation</a> Â· <a href="docs/BROWSER-SETUP.md">Extension setup</a> Â· <a href="#help-and-feedback">Help</a></p>
 </div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/assets/app-dark.webp">
   <source media="(prefers-color-scheme: light)" srcset=".github/assets/app-light.webp">
-  <img src=".github/assets/app-dark.webp" alt="GrabThis download library with example files" width="1204">
+  <img src=".github/assets/app-dark.webp" alt="GrabThis library with example downloads in progress, completed and paused" width="1204">
 </picture>
 
-## What you can do
+## The essentials, without the clutter
 
-| Tool | What it does |
-| --- | --- |
-| **Capture browser downloads** | Send eligible HTTP(S) files to GrabThis, with Start, Cancel and Download in browser choices. |
-| **Choose video formats** | A floating button gives you the available MP4 and MP3 options for the current video. |
-| **Stay in control** | Pause and resume supported downloads, manage connections, and set a speed limit. |
-| **Convert video to MP3** | Convert a local video inside the app while keeping the original file. |
-| **Keep things organized** | Categories, search, date sorting and multiple selection for your library. |
-| **Update inside the app** | Automatic update checks, direct installer download with progress, and SHA-256 verification before installation. |
-| **Make it yours** | Light/dark appearance, three languages, completion notifications and tray controls. |
-
-## Install in a few clicks
-
-1. Download **[GrabThis-0.1.43-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.43/GrabThis-0.1.43-Setup.exe)** and open it.
-2. Approve the Windows administrator prompt. Setup installs in **Program Files** and prepares the video tools and browser connection automatically. An internet connection is needed for about 105 MB of verified tools.
-3. Open **GrabThis** from the Desktop or Windows Start Menu shortcut.
-4. Follow the **Extension setup** wizard that opens on first launch. Follow the grouped Chrome / Edge / Brave screenshots, or use the Firefox Store button. You can reopen it from the sidebar at any time; an [illustrated web guide](docs/BROWSER-SETUP.md) is also available.
-
-No terminal or .NET SDK is required. Installation and updates require administrator approval; using GrabThis does not. The installer is an unsigned preview. [Release notes and checksums](https://github.com/Godchi872/GrabThis/releases/tag/v0.1.43) are available with the download. Choose **Setup.exe**, rather than GitHub’s automatically generated Source code archives.
-
-From version **0.1.38**, GrabThis checks for updates at startup and every six hours. Use the update banner or **Settings → Check for updates** to download the installer inside the app, then choose **Install update**. From 0.1.43, confirm **Close and install**: GrabThis saves download progress, waits for the installer to be ready and exits automatically. Cancelling Windows approval keeps the app open and resumes previously running downloads. When installing this fix from 0.1.42 or earlier, exit the older app from its tray menu once.
-
-## Add the browser companion
-
-Both extension folders are installed beside the app. **Start Menu → GrabThis → Browser extensions** opens the Chromium extension folder.
-
-| Chrome / Edge / Brave / Opera | Firefox |
-| --- | --- |
-| Enable Developer mode, click Load unpacked, and select **extension**. | The included **extension-firefox** folder is a temporary development preview. Permanent installation requires the signed store version. |
-| [Four steps with highlighted screenshots →](docs/BROWSER-SETUP.md#chromium-browsers) | [Firefox instructions →](docs/BROWSER-SETUP.md#firefox) |
-
-<a href="docs/BROWSER-SETUP.md"><img src=".github/assets/guides/02-load-unpacked.png" alt="Chrome Extensions page with Load unpacked outlined in orange" width="900"></a>
-
-Companion version: **0.1.23**. Setup registers the desktop connection automatically; installing the extension in each browser still requires your approval.
+- **Capture browser downloads** â€” send eligible files straight to GrabThis.
+- **Choose video quality** â€” use the floating button to pick available MP4 or MP3 options.
+- **Pause and resume** â€” continue supported downloads and control their speed.
+- **Convert video to MP3** â€” turn a local video into audio while keeping the original.
+- **Keep downloads organized** â€” categories, search and multiple selection in one library.
 
 ## Screenshots
 
-### A floating button on your video
+### Follow your download
 
-These images show the real GrabThis companion on public videos, with formats returned by the desktop app. Click an image to view it at full size.
+See progress, speed and time remaining in a separate window. Closing the window keeps the download running.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/download-active-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset=".github/assets/download-active-light.webp">
+  <img src=".github/assets/download-active-dark.webp" alt="GrabThis download window showing progress, speed, time remaining and Pause control" width="644">
+</picture>
+
+### Ready when it finishes
+
+Open the file or its folder directly from the completed download window.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/download-completed-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset=".github/assets/download-completed-light.webp">
+  <img src=".github/assets/download-completed-dark.webp" alt="Completed GrabThis download with Open file, Open folder, Show details and Close controls" width="644">
+</picture>
+
+Desktop screenshots show the actual interface with example data. [Screenshot notes and credits](docs/SCREENSHOTS.md).
+
+### Choose formats right on the video
+
+The floating button offers the formats available for the selected video. Here is the quality menu up close:
+
+<a href=".github/assets/guides/video-qualities.png"><img src=".github/assets/guides/video-qualities.png" alt="GrabThis floating menu with available MP4 video qualities and MP3 audio" width="288"></a>
 
 | YouTube | Instagram | TikTok |
 | --- | --- | --- |
 | [![GrabThis on YouTube](.github/assets/guides/youtube-floating.png)](.github/assets/guides/youtube-floating.png) | [![GrabThis on Instagram](.github/assets/guides/instagram-floating.png)](.github/assets/guides/instagram-floating.png) | [![GrabThis on TikTok](.github/assets/guides/tiktok-floating.png)](.github/assets/guides/tiktok-floating.png) |
-| Automatically prepares formats for the main video. | Click to inspect the current Reel. | Click to inspect the chosen video, without fetching the whole feed. |
 
-<details>
-<summary><strong>See the available video qualities up close</strong></summary>
+Formats depend on the source. YouTube focuses on the main video; on other supported pages, click to inspect the selected video. MP3 conversion runs in the desktop app.
 
-![Available formats on the example YouTube video](.github/assets/guides/video-qualities.png)
+## Installation
 
-These qualities belong to this example video. Available formats depend on the source; MP3 conversion is performed by the desktop app.
+1. **[Download the Windows installer](https://github.com/Godchi872/GrabThis/releases/download/v0.1.43/GrabThis-0.1.43-Setup.exe)**, open it and approve the Windows prompt.
+2. **Launch GrabThis** from the Desktop or Start Menu.
+3. **Follow Extension setup** on first launch to connect your browser.
 
-</details>
+No terminal or .NET installation is needed. Setup prepares the video tools automatically and needs an internet connection. [Installation details and updates â†’](docs/INSTALLATION.md)
 
-<details>
-<summary><strong>See the light appearance</strong></summary>
+### Connect your browser
 
-![GrabThis in light appearance with example files](.github/assets/app-light.webp)
+| Chrome Â· Edge Â· Brave Â· Opera | Firefox |
+| --- | --- |
+| Load the included extension with Developer mode. | Open the Firefox Add-ons listing. |
+| **[Illustrated setup guide â†’](docs/BROWSER-SETUP.md#chromium-browsers)** | **[Firefox Add-ons â†’](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/)** Â· [Help](docs/BROWSER-SETUP.md#firefox) |
 
-</details>
-
-[Screenshot sources and credits](docs/SCREENSHOTS.md)
+The Chromium guide highlights each control to click. You can reopen **Extension setup** from GrabThisâ€™s sidebar at any time. Firefox listing availability is managed by Mozilla.
 
 ## Help and feedback
 
-- **[Report a bug](https://github.com/Godchi872/GrabThis/issues/new/choose)** with your app/companion versions and steps to reproduce it.
-- **Desktop app disconnected?** Open GrabThis, run Setup again to repair the connection, then reload the extension. [More help](docs/BROWSER-SETUP.md#troubleshooting).
-- **Window X:** hides GrabThis in the notification area. Choose Exit from the tray menu to quit.
+- **[Report a bug](https://github.com/Godchi872/GrabThis/issues/new/choose)** or suggest a feature.
+- **[Extension troubleshooting](docs/BROWSER-SETUP.md#troubleshooting)** for connection and capture issues.
+- **[Installation and update help](docs/INSTALLATION.md)** for setup, updates and uninstalling.
 
-Formats and resume support depend on the source. Protected, login-only, POST, blob and browser-only sessions may be unavailable or remain in the browser. Uninstalling preserves download history, preferences and downloaded files.
+<details>
+<summary>Download compatibility and how GrabThis stays open</summary>
+
+Resume and available formats depend on the source. Protected content, login-only pages, POST, blob and browser-only sessions may be unavailable or remain in the browser.
+
+Closing the main window hides GrabThis in the notification area so downloads can continue. Choose **Exit** from its tray menu to quit.
+
+</details>
 
 ## Support GrabThis
 
-GrabThis is free to use. You can **[support its development](https://ko-fi.com/grabthis)** if it helps you.
+GrabThis is free to use. Donations help support its development.
+
+<a href="https://ko-fi.com/grabthis"><img src="https://img.shields.io/badge/Donate-Ko--fi-20b8a6?style=for-the-badge" alt="Donate to GrabThis on Ko-fi"></a>
 
 ---
 
-This repository hosts official release downloads, documentation and issue tracking. Desktop source is maintained separately. Third-party tools retain their own licenses; runtime notices are included with the app, and Setup downloads video tools from their upstream releases. The current downloadable app is for Windows x64.
+This repository hosts official downloads, documentation and issue tracking. Desktop source is maintained separately. Third-party license notices are included with the app. The current downloadable app is for Windows x64.
 
-[Website](https://grabthis.vercel.app/) · [Privacy](https://grabthis.vercel.app/privacy/) · [Changelog](CHANGELOG.md)
+[Website](https://grabthis.vercel.app/) Â· [Privacy](https://grabthis.vercel.app/privacy/) Â· [Changelog](CHANGELOG.md) Â· [Latest release](https://github.com/Godchi872/GrabThis/releases/latest)
