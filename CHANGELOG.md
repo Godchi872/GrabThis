@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.44 - LinkedIn video capture
+
+Companion 0.1.24 reads per-video source metadata on LinkedIn public players, including players with no direct src or a browser-local blob. It selects the highest declared bitrate from valid LinkedIn CDN sources and resets formats when the selected video changes. Downloads still require explicit confirmation.
+
+After installing the update, reload the unpacked Chromium extension and confirm version 0.1.24. Firefox permanent distribution requires Mozilla signing.
+
 ## 0.1.43 — safe update installation
 
 Install update asks for confirmation, pauses active transfers and saves their progress. GrabThis closes only after the elevated installer confirms readiness. Declining confirmation leaves work running; cancelling Windows approval, launch failure or cache revalidation failure keeps the app open and recovers previously running transfers. Manually paused jobs remain paused. Active MP3 conversions require restarting, with an explicit warning.
