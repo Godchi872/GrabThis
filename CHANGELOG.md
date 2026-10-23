@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.43 — safe update installation
+
+Install update asks for confirmation, pauses active transfers and saves their progress. GrabThis closes only after the elevated installer confirms readiness. Declining confirmation leaves work running; cancelling Windows approval, launch failure or cache revalidation failure keeps the app open and recovers previously running transfers. Manually paused jobs remain paused. Active MP3 conversions require restarting, with an explicit warning.
+
+The installer cleans up reused media tools on uninstall and removes its directory only when empty. Versions 0.1.42 and earlier must be exited manually once when installing this fix.
+
 ## 0.1.42 — organized installation folder
 
 GrabThis.exe remains the application entry point. Runtime libraries, configuration and the browser host are grouped in app; the uninstaller lives in app/uninstall. Tools, extensions, documentation and licenses have dedicated folders. Application libraries and the browser host use consistent GrabThis filenames.

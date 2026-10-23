@@ -6,7 +6,7 @@
   </picture>
   <h1>GrabThis Download Manager</h1>
   <p><strong>Your downloads. Under control.</strong><br>Files, video and MP3 — the tools you need in one straightforward app.</p>
-  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.42/GrabThis-0.1.42-Setup.exe"><strong>Download for Windows</strong></a> · <a href="https://grabthis.vercel.app/">Website</a> · <a href="docs/BROWSER-SETUP.md">Browser setup</a> · <a href="#screenshots">Screenshots</a></p>
+  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.43/GrabThis-0.1.43-Setup.exe"><strong>Download for Windows</strong></a> · <a href="https://grabthis.vercel.app/">Website</a> · <a href="docs/BROWSER-SETUP.md">Browser setup</a> · <a href="#screenshots">Screenshots</a></p>
   <p>Free to use &nbsp; · &nbsp; Windows x64 &nbsp; · &nbsp; English / Français / العربية</p>
 </div>
 
@@ -30,14 +30,14 @@
 
 ## Install in a few clicks
 
-1. Download **[GrabThis-0.1.42-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.42/GrabThis-0.1.42-Setup.exe)** and open it.
+1. Download **[GrabThis-0.1.43-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.43/GrabThis-0.1.43-Setup.exe)** and open it.
 2. Approve the Windows administrator prompt. Setup installs in **Program Files** and prepares the video tools and browser connection automatically. An internet connection is needed for about 105 MB of verified tools.
 3. Open **GrabThis** from the Desktop or Windows Start Menu shortcut.
 4. Follow the **Extension setup** wizard that opens on first launch. Follow the grouped Chrome / Edge / Brave screenshots, or use the Firefox Store button. You can reopen it from the sidebar at any time; an [illustrated web guide](docs/BROWSER-SETUP.md) is also available.
 
-No terminal or .NET SDK is required. Installation and updates require administrator approval; using GrabThis does not. The installer is an unsigned preview. [Release notes and checksums](https://github.com/Godchi872/GrabThis/releases/tag/v0.1.42) are available with the download. Choose **Setup.exe**, rather than GitHub’s automatically generated Source code archives.
+No terminal or .NET SDK is required. Installation and updates require administrator approval; using GrabThis does not. The installer is an unsigned preview. [Release notes and checksums](https://github.com/Godchi872/GrabThis/releases/tag/v0.1.43) are available with the download. Choose **Setup.exe**, rather than GitHub’s automatically generated Source code archives.
 
-From version **0.1.38**, GrabThis checks for updates at startup and every six hours. Use the update banner or **Settings → Check for updates** to download the installer inside the app, then choose **Install update**. Older versions need one manual Setup installation.
+From version **0.1.38**, GrabThis checks for updates at startup and every six hours. Use the update banner or **Settings → Check for updates** to download the installer inside the app, then choose **Install update**. From 0.1.43, confirm **Close and install**: GrabThis saves download progress, waits for the installer to be ready and exits automatically. Cancelling Windows approval keeps the app open and resumes previously running downloads. When installing this fix from 0.1.42 or earlier, exit the older app from its tray menu once.
 
 ## Add the browser companion
 
