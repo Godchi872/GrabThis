@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.46 - interactive update startup
+
+Updates now pass the app language directly to Setup, preventing the language-selection dialog from delaying the installer readiness signal and application shutdown. The updater shows preparation and Windows-approval status, and restores the ready message when confirmation is cancelled. The modal updater closes before the main window; local handoff diagnostics record preparation, readiness and failures.
+
+When installing this fix from 0.1.43-0.1.45, select the installer language promptly if asked. Companion remains 0.1.25.
+
 ## 0.1.45 - hide the floating button per video
 
 Companion 0.1.25 adds a small close control on hover or keyboard focus (always available on touch devices). It hides the floating button for the selected video until the page is refreshed, without changing other videos or adding a permanent setting. Pending format lookups cannot restore a dismissed button.
