@@ -5,7 +5,7 @@
     <img src=".github/assets/logo-light.svg" alt="GrabThis" width="240">
   </picture>
   <h1>GrabThis Download Manager</h1>
-  <p><strong>Files, videos and MP3. Simply.</strong><br>The essential download tools, in one straightforward app.</p>
+  <p><strong>Faster downloads. Less clutter.</strong><br>Files, videos and MP3, with the essential tools in one straightforward app.</p>
   <p>
     <a href="https://github.com/Godchi872/GrabThis/releases/latest"><img src="https://img.shields.io/github/v/release/Godchi872/GrabThis?label=latest%20release&amp;color=20b8a6" alt="Latest GrabThis release"></a>
     <a href="https://grabthis.vercel.app/"><img src="https://img.shields.io/badge/website-grabthis.vercel.app-243543" alt="GrabThis website"></a>
@@ -23,11 +23,14 @@
 
 ## The essentials, without the clutter
 
-- **Capture browser downloads** — send eligible files straight to GrabThis.
-- **Choose video quality** — use the floating button to pick available MP4 or MP3 options.
-- **Pause and resume** — continue supported downloads and control their speed.
-- **Convert video to MP3** — turn a local video into audio while keeping the original.
-- **Keep downloads organized** — categories, search and multiple selection in one library.
+- ⚡ **Faster downloads** — download file parts in parallel with up to 8 connections on supported servers.
+- 🌐 **Capture browser downloads** — send eligible files straight to GrabThis.
+- 🎬 **Choose video quality** — use the floating button to pick available MP4 or MP3 options.
+- ⏯️ **Pause and resume** — continue supported downloads and control their speed.
+- 🎵 **Convert video to MP3** — turn a local video into audio while keeping the original.
+- 🗂️ **Keep downloads organized** — categories, search and multiple selection in one library.
+
+Parallel connections help make better use of your available bandwidth. Actual speed depends on your connection and the server.
 
 ## Screenshots
 
