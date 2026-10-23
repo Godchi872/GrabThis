@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.42 — organized installation folder
+
+GrabThis.exe remains the application entry point. Runtime libraries, configuration and the browser host are grouped in app; the uninstaller lives in app/uninstall. Tools, extensions, documentation and licenses have dedicated folders. Application libraries and the browser host use consistent GrabThis filenames.
+
+Upgrading removes the previous flat runtime files, refreshes browser registrations and shortcuts, and reuses unchanged media tools. Existing extension paths and user data are preserved. The bundled runtime remains self-contained.
+
 ## 0.1.41 — installation and extension setup
 
 Setup now defaults to Program Files, with shared shortcuts and browser registrations. Installation and updates request administrator approval; the app runs with normal permissions. On first launch, a previous per-user installation is migrated without changing download history or preferences. Existing unpacked-extension folders remain available to the browser.

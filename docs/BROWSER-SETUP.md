@@ -1,6 +1,6 @@
 # Add GrabThis to your browser
 
-Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.41/GrabThis-0.1.41-Setup.exe)** first. Setup registers the local browser connection automatically.
+Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.42/GrabThis-0.1.42-Setup.exe)** first. Setup registers the local browser connection automatically.
 
 On first launch, **Extension setup** opens automatically. Chrome, Edge and Brave share a five-step illustrated guide; Firefox has its own button opening the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/). **Finish** closes the guide even while connection verification is pending. The reminder stays visible until a verified connection is completed; reopen the guide from the sidebar at any time.
 
