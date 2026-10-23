@@ -1,5 +1,5 @@
-**[Download for Windows (.exe)](https://github.com/Godchi872/GrabThis/releases/download/v0.1.44/GrabThis-0.1.44-Setup.exe)**
+**[Download for Windows (.exe)](https://github.com/Godchi872/GrabThis/releases/download/v0.1.45/GrabThis-0.1.45-Setup.exe)**
 
-Fixes video capture for LinkedIn public players that declare their sources in player metadata. Verified against a real public post with a completed audio/video download.
+Hover over the floating GrabThis button and click **×** to hide it for that video. Refresh the page to bring it back. Other videos keep their button.
 
-Includes companion **0.1.24**. After installation, open your Chromium browser's Extensions page, click **Reload** on GrabThis, then refresh the video page. If an older copy is still loaded, select the **extension** folder in the current GrabThis installation.
+Includes companion **0.1.25**. After installation, click **Reload** on GrabThis in your browser's Extensions page, then refresh the video page.

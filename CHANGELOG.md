@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.45 - hide the floating button per video
+
+Companion 0.1.25 adds a small close control on hover or keyboard focus (always available on touch devices). It hides the floating button for the selected video until the page is refreshed, without changing other videos or adding a permanent setting. Pending format lookups cannot restore a dismissed button.
+
+After installing the update, reload the unpacked Chromium extension and confirm version 0.1.25.
+
 ## 0.1.44 - LinkedIn video capture
 
 Companion 0.1.24 reads per-video source metadata on LinkedIn public players, including players with no direct src or a browser-local blob. It selects the highest declared bitrate from valid LinkedIn CDN sources and resets formats when the selected video changes. Downloads still require explicit confirmation.

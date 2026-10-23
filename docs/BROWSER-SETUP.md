@@ -1,6 +1,6 @@
 # Add GrabThis to your browser
 
-Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.44/GrabThis-0.1.44-Setup.exe)** first. Setup registers the local browser connection automatically.
+Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.45/GrabThis-0.1.45-Setup.exe)** first. Setup registers the local browser connection automatically.
 
 On first launch, **Extension setup** opens automatically. Chrome, Edge and Brave share a five-step illustrated guide; Firefox has its own button opening the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/). **Finish** closes the guide even while connection verification is pending. The reminder stays visible until a verified connection is completed; reopen the guide from the sidebar at any time.
 
@@ -66,6 +66,10 @@ Install the updated GrabThis version, then click the circular **Reload** arrow i
 ## Firefox
 
 Setup registers the Firefox native connection automatically. Open the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/) from the app’s **Firefox Store** button and follow Mozilla’s installation prompt. Availability and approval are managed by Mozilla.
+
+## Hide the floating button
+
+Hover over GrabThis on a video and click **×**. The button stays hidden for that video until you refresh the page; other videos keep their buttons. Keyboard users can Tab to the close button and press Enter. No permanent site setting is changed.
 
 ## Troubleshooting
 
