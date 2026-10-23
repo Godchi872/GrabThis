@@ -11,8 +11,8 @@
     <a href="https://grabthis.vercel.app/"><img src="https://img.shields.io/badge/website-grabthis.vercel.app-243543" alt="GrabThis website"></a>
   </p>
   <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.43/GrabThis-0.1.43-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-x64-20b8a6?style=for-the-badge" alt="Download GrabThis for Windows x64"></a></p>
-  <p>Free to use Â· Light &amp; dark Â· English / FranÃ§ais / Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©</p>
-  <p><a href="#screenshots">Screenshots</a> Â· <a href="#installation">Installation</a> Â· <a href="docs/BROWSER-SETUP.md">Extension setup</a> Â· <a href="#help-and-feedback">Help</a></p>
+  <p>Free to use · Light &amp; dark · English / Français / العربية</p>
+  <p><a href="#screenshots">Screenshots</a> · <a href="#installation">Installation</a> · <a href="docs/BROWSER-SETUP.md">Extension setup</a> · <a href="#help-and-feedback">Help</a></p>
 </div>
 
 <picture>
@@ -23,11 +23,11 @@
 
 ## The essentials, without the clutter
 
-- **Capture browser downloads** â€” send eligible files straight to GrabThis.
-- **Choose video quality** â€” use the floating button to pick available MP4 or MP3 options.
-- **Pause and resume** â€” continue supported downloads and control their speed.
-- **Convert video to MP3** â€” turn a local video into audio while keeping the original.
-- **Keep downloads organized** â€” categories, search and multiple selection in one library.
+- **Capture browser downloads** — send eligible files straight to GrabThis.
+- **Choose video quality** — use the floating button to pick available MP4 or MP3 options.
+- **Pause and resume** — continue supported downloads and control their speed.
+- **Convert video to MP3** — turn a local video into audio while keeping the original.
+- **Keep downloads organized** — categories, search and multiple selection in one library.
 
 ## Screenshots
 
@@ -71,16 +71,16 @@ Formats depend on the source. YouTube focuses on the main video; on other suppor
 2. **Launch GrabThis** from the Desktop or Start Menu.
 3. **Follow Extension setup** on first launch to connect your browser.
 
-No terminal or .NET installation is needed. Setup prepares the video tools automatically and needs an internet connection. [Installation details and updates â†’](docs/INSTALLATION.md)
+No terminal or .NET installation is needed. Setup prepares the video tools automatically and needs an internet connection. [Installation details and updates →](docs/INSTALLATION.md)
 
 ### Connect your browser
 
-| Chrome Â· Edge Â· Brave Â· Opera | Firefox |
+| Chrome · Edge · Brave · Opera | Firefox |
 | --- | --- |
 | Load the included extension with Developer mode. | Open the Firefox Add-ons listing. |
-| **[Illustrated setup guide â†’](docs/BROWSER-SETUP.md#chromium-browsers)** | **[Firefox Add-ons â†’](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/)** Â· [Help](docs/BROWSER-SETUP.md#firefox) |
+| **[Illustrated setup guide →](docs/BROWSER-SETUP.md#chromium-browsers)** | **[Firefox Add-ons →](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/)** · [Help](docs/BROWSER-SETUP.md#firefox) |
 
-The Chromium guide highlights each control to click. You can reopen **Extension setup** from GrabThisâ€™s sidebar at any time. Firefox listing availability is managed by Mozilla.
+The Chromium guide highlights each control to click. You can reopen **Extension setup** from GrabThis’s sidebar at any time. Firefox listing availability is managed by Mozilla.
 
 ## Help and feedback
 
@@ -107,4 +107,4 @@ GrabThis is free to use. Donations help support its development.
 
 This repository hosts official downloads, documentation and issue tracking. Desktop source is maintained separately. Third-party license notices are included with the app. The current downloadable app is for Windows x64.
 
-[Website](https://grabthis.vercel.app/) Â· [Privacy](https://grabthis.vercel.app/privacy/) Â· [Changelog](CHANGELOG.md) Â· [Latest release](https://github.com/Godchi872/GrabThis/releases/latest)
+[Website](https://grabthis.vercel.app/) · [Privacy](https://grabthis.vercel.app/privacy/) · [Changelog](CHANGELOG.md) · [Latest release](https://github.com/Godchi872/GrabThis/releases/latest)
