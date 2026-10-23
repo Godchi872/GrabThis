@@ -2,12 +2,12 @@
 
 ## Install on Windows
 
-1. Download **[GrabThis-0.1.48-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.48/GrabThis-0.1.48-Setup.exe)** and open it.
+1. Download **[GrabThis-0.1.49-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.49/GrabThis-0.1.49-Setup.exe)** and open it.
 2. Approve the Windows administrator prompt. Setup installs in **Program Files** and prepares the video tools and browser connection. An internet connection is needed for about 105 MB of verified tools.
 3. Open **GrabThis** from the Desktop or Start Menu shortcut.
 4. Follow **Extension setup** on first launch. Chrome, Edge and Brave share an illustrated guide; Firefox has its own Add-ons button. Opera and other compatible Chromium browsers can follow the [browser guide](BROWSER-SETUP.md#chromium-browsers).
 
-The app runs with normal user permissions. Installation and updates need administrator approval. No terminal or .NET SDK is required. The installer is an unsigned preview. [Release notes and checksums](https://github.com/Godchi872/GrabThis/releases/tag/v0.1.48) are available with the download.
+The app runs with normal user permissions. Installation and updates need administrator approval. No terminal or .NET SDK is required. The installer is an unsigned preview. [Release notes and checksums](https://github.com/Godchi872/GrabThis/releases/tag/v0.1.49) are available with the download.
 
 Choose **Setup.exe** in GitHub’s release assets. The automatically generated Source code archives are not the Windows installer.
 

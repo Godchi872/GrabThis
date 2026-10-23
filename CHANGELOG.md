@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.49 - download security
+
+Windows downloads now retain Internet-origin metadata, including browser-assisted files, media and update installers. Windows attachment policy and filesystems without named streams are respected. The bundled Node runtime is updated to 26.12.1 with pinned checksums. Privacy text explains browser-session file transfers, and update progress uses a clean separator. Companion remains 0.1.26.
+
 ## 0.1.48 - Drive archive redirects
 
 Fixes the original-source check for Google Drive folder ZIPs that redirect to Google sign-in. These links now reach the browser-assisted transfer path instead of silently falling back during the native probe. Also fixes the garbled separator in the update dialog. Companion remains 0.1.26.
