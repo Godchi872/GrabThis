@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.50 - filename safety and release checks
+
+Removes misleading direction controls from new download filenames while preserving Arabic and other Unicode names. Confirmation and progress windows show the actual file extension; existing file paths are preserved. The website enforces a strict Content Security Policy and refuses unwanted framing. Releases now build from tracked source and pinned, verified tools with locked packages, regression/advisory gates, a component inventory and source-revision records. Publisher signing remains optional and unsigned preview status is unchanged. Companion remains 0.1.26.
+
 ## 0.1.49 - download security
 
 Windows downloads now retain Internet-origin metadata, including browser-assisted files, media and update installers. Windows attachment policy and filesystems without named streams are respected. The bundled Node runtime is updated to 26.12.1 with pinned checksums. Privacy text explains browser-session file transfers, and update progress uses a clean separator. Companion remains 0.1.26.
