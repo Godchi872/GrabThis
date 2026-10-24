@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.51 - HTTPS and video dependency security
+
+Updates the video runtime to CPython 3.14.9, certifi 2026.10.19 and Brotli 1.2.1. Native downloads and update checks additionally reject all eight compromised eMudhra public keys while retaining normal TLS and hostname validation. Setup always replaces the video extractor and reuses unchanged FFmpeg files only after hash verification.
+
+The optional curl-cffi impersonation backend is excluded until its separate vulnerable Brotli decoder is patched; sites that require it may be temporarily unavailable. Browser companion remains 0.1.26.
+
 ## 0.1.50 - filename safety and release checks
 
 Removes misleading direction controls from new download filenames while preserving Arabic and other Unicode names. Confirmation and progress windows show the actual file extension; existing file paths are preserved. The website enforces a strict Content Security Policy and refuses unwanted framing. Releases now build from tracked source and pinned, verified tools with locked packages, regression/advisory gates, a component inventory and source-revision records. Publisher signing remains optional and unsigned preview status is unchanged. Companion remains 0.1.26.
