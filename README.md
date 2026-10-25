@@ -80,12 +80,20 @@ No terminal or .NET installation is needed. Setup prepares the video tools autom
 
 ### Connect your browser
 
-| Chrome · Edge · Brave · Opera | Firefox |
+| <img src=".github/assets/browsers/chrome.svg" width="20" height="20" alt=""> Chrome · <img src=".github/assets/browsers/edge.svg" width="20" height="20" alt=""> Edge · <img src=".github/assets/browsers/brave.svg" width="20" height="20" alt=""> Brave · <img src=".github/assets/browsers/opera.svg" width="20" height="20" alt=""> Opera | <img src=".github/assets/browsers/firefox.svg" width="20" height="20" alt=""> Firefox |
 | --- | --- |
 | Load the included extension with Developer mode. | Install the signed extension from Mozilla. No Developer mode needed. |
 | **[Illustrated setup guide →](docs/BROWSER-SETUP.md#chromium-browsers)** | **[Firefox Add-ons →](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/)** · [Help](docs/BROWSER-SETUP.md#firefox) |
 
 The Chromium guide highlights each control to click. You can reopen **Extension setup** from GrabThis’s sidebar at any time. Firefox companion **0.1.26** is published on Mozilla Add-ons. Firefox updates the store-installed extension automatically when automatic add-on updates are enabled.
+
+### Watch the browser setup
+
+Follow the complete illustrated guide, from the browser menu to selecting the extension folder. Chrome is shown; Edge, Brave and Opera use similar steps.
+
+<a href=".github/assets/guides/browser-setup.gif"><img src=".github/assets/guides/browser-setup.gif" alt="Animated GrabThis setup: browser menu, Developer mode, Load unpacked and selecting the extension folder" width="900"></a>
+
+**[Individual picture steps and the folder-only animation →](docs/BROWSER-SETUP.md#chromium-browsers)**
 
 ## Help and feedback
 

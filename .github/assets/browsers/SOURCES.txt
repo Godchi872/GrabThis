@@ -1,0 +1,4 @@
+Browser logos from https://github.com/alrra/browser-logos
+Source revision: 58881b84c4d73adc03c06fa2c275a7abee02d935
+Original browser names and logos belong to their respective owners.
+These icons identify supported browsers; no affiliation or endorsement is implied.

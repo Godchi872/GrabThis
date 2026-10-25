@@ -10,7 +10,16 @@ Open **Start Menu → GrabThis → Browser extensions**. Copy the folder address
 
 ## Chromium browsers
 
-Chrome, Edge, Brave, Opera / Opera GX and other compatible Chromium browsers use the same **extension** folder. Choose your browser’s address, then follow the highlighted screenshots immediately below.
+Chrome, Edge, Brave, Opera / Opera GX and other compatible Chromium browsers use the same **extension** folder. Watch the complete illustrated guide below, or open the individual picture steps.
+
+### Watch the complete setup
+
+From the browser’s three-dot menu through Developer mode, Load unpacked, choosing the extension folder and checking that GrabThis is enabled. This is an illustrated Chrome example; labels can vary in Edge, Brave and Opera. No personal folder names are used.
+
+![Complete illustrated browser setup for GrabThis](../.github/assets/guides/browser-setup.gif)
+
+<details>
+<summary>Step-by-step images</summary>
 
 ### Open Extensions without typing an address
 
@@ -24,10 +33,10 @@ This numbered menu image is an illustration. The following Developer mode and Lo
 
 | Browser | Extensions page |
 | --- | --- |
-| Chrome | `chrome://extensions` |
-| Microsoft Edge | `edge://extensions` |
-| Brave | `brave://extensions` |
-| Opera / Opera GX | `opera://extensions` |
+| <img src="../.github/assets/browsers/chrome.svg" width="20" height="20" alt=""> Chrome | `chrome://extensions` |
+| <img src="../.github/assets/browsers/edge.svg" width="20" height="20" alt=""> Microsoft Edge | `edge://extensions` |
+| <img src="../.github/assets/browsers/brave.svg" width="20" height="20" alt=""> Brave | `brave://extensions` |
+| <img src="../.github/assets/browsers/opera.svg" width="20" height="20" alt=""> Opera / Opera GX | `opera://extensions` |
 
 Screenshots use Chrome. Labels and control positions can vary slightly between browsers.
 
@@ -47,15 +56,17 @@ The button appears after Developer mode is enabled. Click the highlighted **Load
 
 In the folder picker, select **extension** inside the installed GrabThis folder. You can paste the address copied from File Explorer. Select the folder itself; it contains **manifest.json**. Choose **extension**, rather than **extension-firefox** or the installer file.
 
-This diagram identifies the folder to choose; it is not a screenshot of a browser dialog. A custom installation path may differ from the default shown.
+Open **This PC → Local Disk (C:) → Program Files → GrabThis**. Select **extension**, then click **Select Folder**. The short animation starts at This PC and shows the default installation path. Unrelated folders are blurred.
 
-![Folder diagram: select extension inside the installed GrabThis folder](../.github/assets/guides/03-extension-folder.png)
+![Illustrated folder selection: This PC, Local Disk C, Program Files, GrabThis, extension, Select Folder](../.github/assets/guides/extension-folder.gif)
 
 ### 4. Check that GrabThis is enabled
 
 The **GrabThis Download Companion** card should appear with its switch on. Open the desktop app. The companion’s toolbar popup should show the desktop app as connected.
 
 ![Step 4: enabled GrabThis switch highlighted with rectangle number 4](../.github/assets/guides/04-extension-ready.png)
+
+</details>
 
 Allow site access for the websites you use. Private windows require a separate **Incognito / InPrivate / private-window** permission, where available, in the extension’s Details.
 
@@ -95,6 +106,6 @@ The same illustrated guide is available on the localized website:
 - [Français](https://grabthis.vercel.app/fr/#chrome-setup)
 - [العربية](https://grabthis.vercel.app/ar/#chrome-setup)
 
-Open the Chromium browser setup section to see the numbered images. The included **Browser setup guide** in GrabThis’s Start Menu folder also contains English, French and Arabic instructions.
+Open the Chromium browser setup section to watch the complete animation, or expand the individual picture steps. The included **Browser setup guide** in GrabThis’s Start Menu folder also contains English, French and Arabic instructions.
 
 Browser references: [Brave extension compatibility](https://support.brave.com/hc/en-us/articles/360017909112-How-can-I-add-extensions-to-Brave) · [Opera Developer mode and unpacked extensions](https://help.opera.com/en/extensions/testing/).
