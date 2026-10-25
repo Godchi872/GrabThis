@@ -4,4 +4,4 @@ Security update for video downloads: refreshes HTTPS certificates and Brotli dep
 
 Some sites requiring browser impersonation may be temporarily unavailable while that optional backend awaits a patched release.
 
-Companion remains **0.1.26**.
+Companion **0.1.26** is now available as a signed extension on **[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/)**. Choose **Add to Firefox**; no Developer mode is needed. Firefox updates the extension automatically when automatic add-on updates are enabled.

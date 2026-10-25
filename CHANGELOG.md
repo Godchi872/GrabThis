@@ -1,5 +1,9 @@
 # Changelog
 
+## Firefox companion 0.1.26 - October 25, 2026
+
+The signed companion is now available on [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/). Install directly with Add to Firefox; store extension updates are automatic when enabled in Firefox. Includes the floating-button hide control, improved video detection, browser-session file transfers and connection reporting. The desktop app remains **0.1.51**.
+
 ## 0.1.51 - HTTPS and video dependency security
 
 Updates the video runtime to CPython 3.14.9, certifi 2026.10.19 and Brotli 1.2.1. Native downloads and update checks additionally reject all eight compromised eMudhra public keys while retaining normal TLS and hostname validation. Setup always replaces the video extractor and reuses unchanged FFmpeg files only after hash verification.

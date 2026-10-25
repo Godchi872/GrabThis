@@ -82,10 +82,10 @@ No terminal or .NET installation is needed. Setup prepares the video tools autom
 
 | Chrome · Edge · Brave · Opera | Firefox |
 | --- | --- |
-| Load the included extension with Developer mode. | Open the Firefox Add-ons listing. |
+| Load the included extension with Developer mode. | Install the signed extension from Mozilla. No Developer mode needed. |
 | **[Illustrated setup guide →](docs/BROWSER-SETUP.md#chromium-browsers)** | **[Firefox Add-ons →](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/)** · [Help](docs/BROWSER-SETUP.md#firefox) |
 
-The Chromium guide highlights each control to click. You can reopen **Extension setup** from GrabThis’s sidebar at any time. Firefox listing availability is managed by Mozilla.
+The Chromium guide highlights each control to click. You can reopen **Extension setup** from GrabThis’s sidebar at any time. Firefox companion **0.1.26** is published on Mozilla Add-ons. Firefox updates the store-installed extension automatically when automatic add-on updates are enabled.
 
 ## Help and feedback
 

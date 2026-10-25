@@ -1,6 +1,6 @@
 # Add GrabThis to your browser
 
-Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.46/GrabThis-0.1.46-Setup.exe)** first. Setup registers the local browser connection automatically.
+Install the desktop app with **[GrabThis Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.51/GrabThis-0.1.51-Setup.exe)** first. Setup registers the local browser connection automatically.
 
 On first launch, **Extension setup** opens automatically. Chrome, Edge and Brave share a five-step illustrated guide; Firefox has its own button opening the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/). **Finish** closes the guide even while connection verification is pending. The reminder stays visible until a verified connection is completed; reopen the guide from the sidebar at any time.
 
@@ -65,7 +65,16 @@ Install the updated GrabThis version, then click the circular **Reload** arrow i
 
 ## Firefox
 
-Setup registers the Firefox native connection automatically. Open the [Firefox Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/) from the app’s **Firefox Store** button and follow Mozilla’s installation prompt. Availability and approval are managed by Mozilla.
+Companion **0.1.26** is published and signed on Mozilla Add-ons. No Developer mode or temporary installation is needed.
+
+1. Install and open the GrabThis desktop app. Setup registers the Firefox connection automatically.
+2. Open **[GrabThis Download Companion on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/)**, or use the app's **Firefox Store** button.
+3. Choose **Add to Firefox** and approve the requested permissions.
+4. Open the extension's toolbar popup to check the desktop connection, then refresh video pages that were already open.
+
+Firefox installs future store extension updates automatically when automatic add-on updates are enabled. To check manually, open **Add-ons and themes → Extensions**, then choose **Check for Updates** from the gear menu. Desktop app updates are handled separately inside GrabThis.
+
+The included **extension-firefox** folder is for development testing; use the signed store version for normal installation.
 
 ## Hide the floating button
 

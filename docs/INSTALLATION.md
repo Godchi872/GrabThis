@@ -16,7 +16,7 @@ Choose **Setup.exe** in GitHub’s release assets. The automatically generated S
 The installer registers the local desktop connection. Adding the extension to each browser requires your approval. You can reopen **Extension setup** from the sidebar at any time.
 
 - **Chromium browsers:** open **Start Menu → GrabThis → Browser extensions**, then follow the [highlighted screenshots](BROWSER-SETUP.md#chromium-browsers) to load the **extension** folder.
-- **Firefox:** use the app’s Firefox Store button or the [Firefox Add-ons listing](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/). Availability and approval are managed by Mozilla.
+- **Firefox:** use the app’s Firefox Store button or the [Firefox Add-ons listing](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/). Signed version **0.1.26** is available; choose **Add to Firefox**. No Developer mode is required.
 
 The included **extension-firefox** folder is a development package for temporary testing; permanent installation uses Mozilla’s signed distribution. Companion version: **0.1.26**.
 
@@ -32,13 +32,15 @@ If you cancel Windows approval or the installer cannot start, GrabThis stays ope
 
 **Updating from 0.1.42 or earlier:** exit the old app from its tray menu once before installing this fix. Future updates handle closing automatically.
 
+Firefox store extensions update automatically when automatic add-on updates are enabled. For manual checks, see the [Firefox guide](BROWSER-SETUP.md#firefox).
+
 For an unpacked Chromium extension update, install the updated app, then click **Reload** on its browser extension card. [Extension update details](BROWSER-SETUP.md#updating-the-extension).
 
 ## Downloads that need your browser session
 
 From app **0.1.47** and companion **0.1.26**, eligible signed-in downloads can transfer through the browser session into GrabThis. Keep the same browser open with the extension enabled. Cookies stay inside the browser. Pause and resume depend on the server; an expired or changed source may require starting again from the website. Private-window session downloads stay in the browser.
 
-Install the new app and reload the Chromium extension before testing this feature. Firefox permanent distribution requires Mozilla signing.
+Install the new app and reload the Chromium extension before testing this feature. Firefox users can install the signed **0.1.26** extension from the [Mozilla Add-ons listing](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/).
 
 ## Existing installations and uninstalling
 
