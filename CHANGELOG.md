@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.52 - October 26, 2026
+
+Extension setup now includes an offline animated guide, shorter folder-selection instructions and connection/update reminders. Check for updates remains available in the sidebar. Completed downloads show only relevant actions, and opening a completed item closes its progress window. Registered Windows installations repair stale startup targets.
+
+The verified first-party updater no longer adds the extra Internet-origin marker; cached installers lose only the exact marker written by earlier GrabThis updaters, after SHA-256 verification. Ordinary download handling and existing browser/Windows metadata are preserved. Older app versions can still display their existing Windows confirmation when installing this release.
+
+Browser companion remains 0.1.26. Windows x64 only; no Linux package is published in this release.
+
 ## Firefox companion 0.1.26 - October 25, 2026
 
 The signed companion is now available on [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/). Install directly with Add to Firefox; store extension updates are automatic when enabled in Firefox. Includes the floating-button hide control, improved video detection, browser-session file transfers and connection reporting. The desktop app remains **0.1.51**.
