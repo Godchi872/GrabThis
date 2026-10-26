@@ -10,7 +10,7 @@
     <a href="https://github.com/Godchi872/GrabThis/releases/latest"><img src="https://img.shields.io/github/v/release/Godchi872/GrabThis?label=latest%20release&amp;color=20b8a6" alt="Latest GrabThis release"></a>
     <a href="https://grabthis.vercel.app/"><img src="https://img.shields.io/badge/website-grabthis.vercel.app-243543" alt="GrabThis website"></a>
   </p>
-  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.52/GrabThis-0.1.52-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-x64-20b8a6?style=for-the-badge" alt="Download GrabThis for Windows x64"></a></p>
+  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.53/GrabThis-0.1.53-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-x64-20b8a6?style=for-the-badge" alt="Download GrabThis for Windows x64"></a></p>
   <p>Free to use · Light &amp; dark · English / Français / العربية</p>
   <p><a href="#screenshots">Screenshots</a> · <a href="#installation">Installation</a> · <a href="docs/BROWSER-SETUP.md">Extension setup</a> · <a href="#help-and-feedback">Help</a></p>
 </div>
@@ -72,7 +72,7 @@ Formats depend on the source. YouTube focuses on the main video; on other suppor
 
 ## Installation
 
-1. **[Download the Windows installer](https://github.com/Godchi872/GrabThis/releases/download/v0.1.52/GrabThis-0.1.52-Setup.exe)**, open it and approve the Windows prompt.
+1. **[Download the Windows installer](https://github.com/Godchi872/GrabThis/releases/download/v0.1.53/GrabThis-0.1.53-Setup.exe)**, open it and approve the Windows prompt.
 2. **Launch GrabThis** from the Desktop or Start Menu.
 3. **Follow Extension setup** on first launch to connect your browser.
 

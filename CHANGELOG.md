@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.53 - October 26, 2026
+
+Windows update installers now use `%LOCALAPPDATA%\GrabThis\updates`. The existing download database and preferences stay in place, so changing the update-cache name does not reset history or interrupt the browser companion. Isolated diagnostics keep their own update folder.
+
+Browser companion remains 0.1.26. This release contains only the Windows installer.
+
 ## 0.1.52 - October 26, 2026
 
 Extension setup now includes an offline animated guide, shorter folder-selection instructions and connection/update reminders. Check for updates remains available in the sidebar. Completed downloads show only relevant actions, and opening a completed item closes its progress window. Registered Windows installations repair stale startup targets.
