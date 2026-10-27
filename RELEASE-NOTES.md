@@ -5,3 +5,5 @@ Setup now includes the video tools and application runtime. Install and open Gra
 The app follows your selected installation language on first launch. Updates preserve your saved language, preferences and download history.
 
 Browser companion remains **0.1.26**; no extension update is needed. The Windows installer remains unsigned.
+
+[Third-party licenses and source links](https://github.com/Godchi872/GrabThis/blob/main/docs/THIRD-PARTY.md).
