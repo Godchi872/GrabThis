@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.54 — 27 October 2026
+
+- Include all video tools and the app runtime for offline Windows installation and repair.
+- Apply the installation language to a new account while preserving existing preferences and download history.
+
+
 ## 0.1.53 - October 26, 2026
 
 Windows update installers now use `%LOCALAPPDATA%\GrabThis\updates`. The existing download database and preferences stay in place, so changing the update-cache name does not reset history or interrupt the browser companion. Isolated diagnostics keep their own update folder.
