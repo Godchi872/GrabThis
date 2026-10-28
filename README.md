@@ -10,7 +10,7 @@
     <a href="https://github.com/Godchi872/GrabThis/releases/latest"><img src="https://img.shields.io/github/v/release/Godchi872/GrabThis?label=latest%20release&amp;color=20b8a6" alt="Latest GrabThis release"></a>
     <a href="https://grabthis.vercel.app/"><img src="https://img.shields.io/badge/website-grabthis.vercel.app-243543" alt="GrabThis website"></a>
   </p>
-  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.54/GrabThis-0.1.54-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-x64-20b8a6?style=for-the-badge" alt="Download GrabThis for Windows x64"></a></p>
+  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.55/GrabThis-0.1.55-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-x64-20b8a6?style=for-the-badge" alt="Download GrabThis for Windows x64"></a></p>
   <p>Free to use · Light &amp; dark · English / Français / العربية</p>
   <p><a href="#screenshots">Screenshots</a> · <a href="#installation">Installation</a> · <a href="docs/BROWSER-SETUP.md">Extension setup</a> · <a href="#help-and-feedback">Help</a></p>
 </div>
@@ -25,6 +25,7 @@
 
 - ⚡ **Faster downloads** — download file parts in parallel with up to 8 connections on supported servers.
 - 🌐 **Capture browser downloads** — send eligible files straight to GrabThis.
+- 🖼️ **Download images** — right-click a web image and confirm its name and folder in GrabThis.
 - 🎬 **Choose video quality** — use the floating button to pick available MP4 or MP3 options.
 - ⏯️ **Pause and resume** — continue supported downloads and control their speed.
 - 🎵 **Convert video to MP3** — turn a local video into audio while keeping the original.
@@ -72,7 +73,7 @@ Formats depend on the source. YouTube focuses on the main video; on other suppor
 
 ## Installation
 
-1. **[Download the Windows installer](https://github.com/Godchi872/GrabThis/releases/download/v0.1.54/GrabThis-0.1.54-Setup.exe)**, open it and approve the Windows prompt.
+1. **[Download the Windows installer](https://github.com/Godchi872/GrabThis/releases/download/v0.1.55/GrabThis-0.1.55-Setup.exe)**, open it and approve the Windows prompt.
 2. **Launch GrabThis** from the Desktop or Start Menu.
 3. **Follow Extension setup** on first launch to connect your browser.
 
@@ -85,7 +86,7 @@ No terminal or .NET installation is needed. Setup includes the video tools and a
 | Load the included extension with Developer mode. | Install the signed extension from Mozilla. No Developer mode needed. |
 | **[Illustrated setup guide →](docs/BROWSER-SETUP.md#chromium-browsers)** | **[Firefox Add-ons →](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/)** · [Help](docs/BROWSER-SETUP.md#firefox) |
 
-The Chromium guide highlights each control to click. You can reopen **Extension setup** from GrabThis’s sidebar at any time. Firefox companion **0.1.26** is published on Mozilla Add-ons. Firefox updates the store-installed extension automatically when automatic add-on updates are enabled.
+The Chromium guide highlights each control to click. You can reopen **Extension setup** from GrabThis’s sidebar at any time. Firefox companion **0.1.27** is published on Mozilla Add-ons. Firefox updates the store-installed extension automatically when automatic add-on updates are enabled.
 
 ### Watch the browser setup
 

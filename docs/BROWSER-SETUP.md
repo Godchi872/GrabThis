@@ -76,7 +76,7 @@ Install the updated GrabThis version, then click the circular **Reload** arrow i
 
 ## Firefox
 
-Companion **0.1.26** is published and signed on Mozilla Add-ons. No Developer mode or temporary installation is needed.
+Companion **0.1.27** is published and signed on Mozilla Add-ons. No Developer mode or temporary installation is needed.
 
 1. Install and open the GrabThis desktop app. Setup registers the Firefox connection automatically.
 2. Open **[GrabThis Download Companion on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/)**, or use the app's **Firefox Store** button.
@@ -86,6 +86,14 @@ Companion **0.1.26** is published and signed on Mozilla Add-ons. No Developer mo
 Firefox installs future store extension updates automatically when automatic add-on updates are enabled. To check manually, open **Add-ons and themes → Extensions**, then choose **Check for Updates** from the gear menu. Desktop app updates are handled separately inside GrabThis.
 
 The included **extension-firefox** folder is for development testing; use the signed store version for normal installation.
+
+## Download an image
+
+With GrabThis 0.1.55 and companion 0.1.27, right-click an image in Chrome, Edge, Brave, Opera or Firefox and choose **Download image with GrabThis**. Confirm the filename and destination folder, then start. Cancel closes the prompt without downloading the image.
+
+After upgrading GrabThis, click Reload on its unpacked extension card, or close and reopen the browser, to load the updated files. Images requiring your browser session may need the browser's **Save image as** option instead. Blob/data images and CSS background images are outside this feature.
+
+Firefox companion 0.1.27 is published on Mozilla Add-ons and includes the image menu. Use GrabThis 0.1.55 or newer.
 
 ## Hide the floating button
 

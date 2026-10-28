@@ -2,7 +2,7 @@
 
 ## Install on Windows
 
-1. Download **[GrabThis-0.1.54-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.54/GrabThis-0.1.54-Setup.exe)** and open it.
+1. Download **[GrabThis-0.1.54-Setup.exe](https://github.com/Godchi872/GrabThis/releases/download/v0.1.55/GrabThis-0.1.55-Setup.exe)** and open it.
 2. Approve the Windows administrator prompt. Setup installs in **Program Files** and prepares the video tools and browser connection. The video tools and application runtime are included, so installation works without an internet connection. Your selected setup language is used on the first app launch; updates preserve your saved language.
 3. Open **GrabThis** from the Desktop or Start Menu shortcut.
 4. Follow **Extension setup** on first launch. Chrome, Edge and Brave share an illustrated guide; Firefox has its own Add-ons button. Opera and other compatible Chromium browsers can follow the [browser guide](BROWSER-SETUP.md#chromium-browsers).
@@ -16,9 +16,9 @@ Choose **Setup.exe** in GitHub’s release assets. The automatically generated S
 The installer registers the local desktop connection. Adding the extension to each browser requires your approval. You can reopen **Extension setup** from the sidebar at any time.
 
 - **Chromium browsers:** open **Start Menu → GrabThis → Browser extensions**, then follow the [highlighted screenshots](BROWSER-SETUP.md#chromium-browsers) to load the **extension** folder.
-- **Firefox:** use the app’s Firefox Store button or the [Firefox Add-ons listing](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/). Signed version **0.1.26** is available; choose **Add to Firefox**. No Developer mode is required.
+- **Firefox:** use the app’s Firefox Store button or the [Firefox Add-ons listing](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/). Signed version **0.1.27** is available; choose **Add to Firefox**. No Developer mode is required.
 
-The included **extension-firefox** folder is a development package for temporary testing; permanent installation uses Mozilla’s signed distribution. Companion version: **0.1.26**.
+The included **extension-firefox** folder is a development package for temporary testing; permanent installation uses Mozilla’s signed distribution. Companion version: **0.1.27**.
 
 ## Updates inside the app
 
@@ -38,9 +38,9 @@ For an unpacked Chromium extension update, install the updated app, then click *
 
 ## Downloads that need your browser session
 
-From app **0.1.47** and companion **0.1.26**, eligible signed-in downloads can transfer through the browser session into GrabThis. Keep the same browser open with the extension enabled. Cookies stay inside the browser. Pause and resume depend on the server; an expired or changed source may require starting again from the website. Private-window session downloads stay in the browser.
+From app **0.1.47** and companion **0.1.27**, eligible signed-in downloads can transfer through the browser session into GrabThis. Keep the same browser open with the extension enabled. Cookies stay inside the browser. Pause and resume depend on the server; an expired or changed source may require starting again from the website. Private-window session downloads stay in the browser.
 
-Install the new app and reload the Chromium extension before testing this feature. Firefox users can install the signed **0.1.26** extension from the [Mozilla Add-ons listing](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/).
+Install the new app and reload the Chromium extension before testing this feature. Firefox users can install the signed **0.1.27** extension from the [Mozilla Add-ons listing](https://addons.mozilla.org/en-US/firefox/addon/grabthis-download-companion/).
 
 ## Existing installations and uninstalling
 

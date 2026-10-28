@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.55 — 28 October 2026
+
+- Add **Download image with GrabThis** to the browser companion's image context menu, with filename/folder confirmation before downloading.
+- Recognize common image formats and extensionless links; show a clear fallback for images requiring the browser session.
+- Clean installed and older update installers after a successful app start, retaining newer pending updates and unrelated files.
+- Include Chromium companion 0.1.27; Firefox companion 0.1.27 is approved and available on Mozilla Add-ons.
+
 ## v0.1.54 — 27 October 2026
 
 - Include all video tools and the app runtime for offline Windows installation and repair.
