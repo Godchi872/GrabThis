@@ -89,11 +89,13 @@ The included **extension-firefox** folder is for development testing; use the si
 
 ## Download an image
 
-With GrabThis 0.1.55 and companion 0.1.27, right-click an image in Chrome, Edge, Brave, Opera or Firefox and choose **Download image with GrabThis**. Confirm the filename and destination folder, then start. Cancel closes the prompt without downloading the image.
+With GrabThis 0.1.56 and Chromium companion 0.1.28, right-click an image and choose **Download with GrabThis**. Confirm its filename and folder, then start. The same direct action handles ordinary download links.
 
-After upgrading GrabThis, click Reload on its unpacked extension card, or close and reopen the browser, to load the updated files. Images requiring your browser session may need the browser's **Save image as** option instead. Blob/data images and CSS background images are outside this feature.
+Transparent image overlays, HTTP(S) CSS background images, responsive images and embedded frames are supported. Images are grouped automatically in the app's **Images** category with picture icons.
 
-Firefox companion 0.1.27 is published on Mozilla Add-ons and includes the image menu. Use GrabThis 0.1.55 or newer.
+Reload the unpacked extension after updating GrabThis, or close and reopen the browser. Session-only images may still require the browser's **Save image as** option. Blob/data URLs are not part of this feature.
+
+Firefox companion updates are distributed through Mozilla Add-ons. Version 0.1.27 remains supported while the next store update is prepared separately.
 
 ## Hide the floating button
 

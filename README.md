@@ -10,7 +10,7 @@
     <a href="https://github.com/Godchi872/GrabThis/releases/latest"><img src="https://img.shields.io/github/v/release/Godchi872/GrabThis?label=latest%20release&amp;color=20b8a6" alt="Latest GrabThis release"></a>
     <a href="https://grabthis.vercel.app/"><img src="https://img.shields.io/badge/website-grabthis.vercel.app-243543" alt="GrabThis website"></a>
   </p>
-  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.55/GrabThis-0.1.55-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-x64-20b8a6?style=for-the-badge" alt="Download GrabThis for Windows x64"></a></p>
+  <p><a href="https://github.com/Godchi872/GrabThis/releases/download/v0.1.56/GrabThis-0.1.56-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-x64-20b8a6?style=for-the-badge" alt="Download GrabThis for Windows x64"></a></p>
   <p>Free to use · Light &amp; dark · English / Français / العربية</p>
   <p><a href="#screenshots">Screenshots</a> · <a href="#installation">Installation</a> · <a href="docs/BROWSER-SETUP.md">Extension setup</a> · <a href="#help-and-feedback">Help</a></p>
 </div>
@@ -18,14 +18,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/assets/app-dark.webp">
   <source media="(prefers-color-scheme: light)" srcset=".github/assets/app-light.webp">
-  <img src=".github/assets/app-dark.webp" alt="GrabThis library with example downloads in progress, completed and paused" width="1204">
+  <img src=".github/assets/app-dark.webp" alt="GrabThis library with example downloads and image, video, audio, file and program categories" width="1204">
 </picture>
 
 ## The essentials, without the clutter
 
 - ⚡ **Faster downloads** — download file parts in parallel with up to 8 connections on supported servers.
 - 🌐 **Capture browser downloads** — send eligible files straight to GrabThis.
-- 🖼️ **Download images** — right-click a web image and confirm its name and folder in GrabThis.
+- 🖼️ **Download images** — right-click an image and choose **Download with GrabThis**, then confirm its name and folder.
 - 🎬 **Choose video quality** — use the floating button to pick available MP4 or MP3 options.
 - ⏯️ **Pause and resume** — continue supported downloads and control their speed.
 - 🎵 **Convert video to MP3** — turn a local video into audio while keeping the original.
@@ -73,7 +73,7 @@ Formats depend on the source. YouTube focuses on the main video; on other suppor
 
 ## Installation
 
-1. **[Download the Windows installer](https://github.com/Godchi872/GrabThis/releases/download/v0.1.55/GrabThis-0.1.55-Setup.exe)**, open it and approve the Windows prompt.
+1. **[Download the Windows installer](https://github.com/Godchi872/GrabThis/releases/download/v0.1.56/GrabThis-0.1.56-Setup.exe)**, open it and approve the Windows prompt.
 2. **Launch GrabThis** from the Desktop or Start Menu.
 3. **Follow Extension setup** on first launch to connect your browser.
 

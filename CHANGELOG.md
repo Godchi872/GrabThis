@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.56 — 28 October 2026
+
+- Add Images filtering, counts and picture icons, including existing image files.
+- Keep explicitly captured images categorized correctly after a filename change.
+- Include companion 0.1.28: one direct image/link menu and image selection beneath transparent overlays, in CSS backgrounds, responsive pictures and embedded frames.
+
 ## v0.1.55 — 28 October 2026
 
 - Add **Download image with GrabThis** to the browser companion's image context menu, with filename/folder confirmation before downloading.
