@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.57 — 5 November 2026
+
+- Package the shared video extractor with a ready-to-run private runtime to reduce startup and format-discovery delays.
+- Include companion 0.1.29 with trusted-click activation for Reels and social-feed videos, and quality requests only after clicking GrabThis.
+- Verify offline upgrade from 0.1.56, complete runtime files, native format discovery and owned-file removal on Windows.
+
 ## v0.1.56 — 28 October 2026
 
 - Add Images filtering, counts and picture icons, including existing image files.
