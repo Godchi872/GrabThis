@@ -97,6 +97,10 @@ Reload the unpacked extension after updating GrabThis, or close and reopen the b
 
 Firefox companion updates are distributed through Mozilla Add-ons. Version 0.1.27 remains supported while the next store update is prepared separately.
 
+## Reels and social-feed videos
+
+With companion 0.1.29, click the Reel or social-feed video itself to reveal GrabThis. Click GrabThis to request the available qualities. Scrolling, autoplay and clicking the caption do not request Reel formats. Refreshing the page resets activation.
+
 ## Hide the floating button
 
 Hover over GrabThis on a video and click **×**. The button stays hidden for that video until you refresh the page; other videos keep their buttons. Keyboard users can Tab to the close button and press Enter. No permanent site setting is changed.
@@ -107,7 +111,7 @@ Hover over GrabThis on a video and click **×**. The button stays hidden for tha
 
 **A file stays in the browser:** another download manager may intercept it first. POST, blob, protected/login-only and browser-only sessions may remain in the browser or be unavailable. Very fast Firefox files may finish before capture.
 
-**A video has different qualities:** formats depend on the source. YouTube prepares the main video automatically; other sites inspect the selected video after you click the button.
+**A video has different qualities:** formats depend on the source. Normal YouTube watch pages prepare the main video automatically. Reels, YouTube Shorts and social-feed videos inspect the selected clip only after you click GrabThis.
 
 ## Français / العربية
 
