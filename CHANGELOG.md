@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.1.59 — 22 November 2026
+
+- Smarter link entry: opening **Add download** pre-fills an HTTP/HTTPS URL from the clipboard, pressing Enter / **Add & start** on supported video pages (YouTube, TikTok, Instagram, Facebook, X, Twitch, Vimeo, etc.) automatically checks available qualities, and links can be dragged and dropped onto the window.
+- Faster list management: clickable **In progress**, **Completed**, and **Paused** summary cards filter downloads directly, hover actions on each row open/pause/resume/remove in one click, a **Clear completed** toolbar button clears finished entries without deleting disk files, and the search field includes a quick clear button (`×` / `Escape`).
+- Cleaner layout & split-screen sizing: lowered minimum window width to `880px`, made the extension setup reminder banner dismissible, and widened/aligned table columns across English, French, and Arabic.
+- Interface polish: completed entries display actual file sizes cleanly instead of `0 B / Unknown size`, singular labels show `1 part` / `1 media stream`, and progress-window metric labels use consistent casing.
+- Companion remains **0.1.29**. Verified offline upgrade from 0.1.58, complete runtime hashes, native inspection and owned-file uninstall on a clean Windows runner.
+
 ## v0.1.58 — 22 November 2026
 
 - Faster parallel HTTP downloads and browser-session transfers: removed per-MB disk fsync bottlenecks and write lock contention, batched SQLite progress checkpoints (`PRAGMA synchronous=NORMAL` in WAL mode, single-row lookups), and added incremental SHA-256 hashing for fresh browser transfers.
