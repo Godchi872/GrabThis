@@ -1,7 +1,6 @@
-**[Download for Windows (.exe)](https://github.com/Godchi872/GrabThis/releases/download/v0.1.57/GrabThis-0.1.57-Setup.exe)**
+**[Download for Windows (.exe)](https://github.com/Godchi872/GrabThis/releases/download/v0.1.58/GrabThis-0.1.58-Setup.exe)**
 
-- Faster startup of the shared video tool for format discovery and media processing across supported websites.
-- Companion **0.1.29**: click a Reel or social-feed video to reveal GrabThis, then click GrabThis to choose a quality. Scrolling and autoplay do not request Reel formats.
-- Install the update over your existing version. Download history, preferences and offline installation are preserved.
-
-Reload the unpacked Chromium extension after updating. Firefox companion updates are distributed separately through Mozilla Add-ons.
+- Faster multi-connection file downloads and authenticated browser-session transfers (eliminated per-MB disk fsync stalls, batched progress checkpoints, incremental SHA-256, and single-row database updates).
+- Expanded video quality support: 2K/4K and WebM/MKV/MOV video streams are now discovered and remuxed cleanly into MP4 (native MP4 streams remain preferred where available), and empty temporary media staging folders are removed automatically on completion.
+- More resilient desktop UI refresh loop with automatic recovery on transient storage errors and lower polling overhead, plus updated `GrabThis/0.1` HTTP user-agent.
+- Companion remains **0.1.29** (no Chromium extension reload is needed if updating from 0.1.57). Install over your existing version to preserve history, preferences and offline setup.

@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.58 — 22 November 2026
+
+- Faster parallel HTTP downloads and browser-session transfers: removed per-MB disk fsync bottlenecks and write lock contention, batched SQLite progress checkpoints (`PRAGMA synchronous=NORMAL` in WAL mode, single-row lookups), and added incremental SHA-256 hashing for fresh browser transfers.
+- Support 2K/4K and WebM/MKV/MOV video streams remuxed to MP4 (preferring MP4 where available) and automatically remove empty `.idman-media-*` staging folders after completion.
+- Improve desktop UI resilience with automatic timer recovery on transient storage errors, single-snapshot polling, and updated `GrabThis/0.1` HTTP user-agent.
+- Companion remains **0.1.29**. Verified offline upgrade from 0.1.57, complete runtime hashes, native inspection and owned-file uninstall on a clean Windows runner.
+
 ## v0.1.57 — 5 November 2026
 
 - Package the shared video extractor with a ready-to-run private runtime to reduce startup and format-discovery delays.
